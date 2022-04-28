@@ -1,0 +1,21 @@
+{
+  "name": "backendmeli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm-run-all clean transpile",
+    "serve": "node dist/index.js",
+    "start": " nodemon --inspect=127.0.0.1:9229 index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
